@@ -1,0 +1,29 @@
+.todoCard {
+    border : 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding : 16px;
+    margin : 16px;
+    width : 300px;
+    box-shadow : 0 2px 4px rgba(0,0,0,0.1);
+    background-color : rgb(51, 50, 54);
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.card-description {
+  color: #555;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.todo-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+  transition: all 0.3s ease;
+}
