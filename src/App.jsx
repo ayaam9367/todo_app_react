@@ -7,7 +7,7 @@ function App() {
       <div className="search-bar">
         <input placeholder='search todos'></input>
       </div>
-      <TodoCard />
+      <TodoCard title = {'Some bloody title'} description = {'Some bloody description'} />
     </>
   )
 }
